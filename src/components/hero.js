@@ -89,7 +89,7 @@ export default function Header() {
       <HoverLink
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/Uniswap/token-lists#authoring-token-lists"
+        href="https://github.com/WLKR-Financial/token-lists#authoring-token-lists"
       >
         {'->'} Make your own
       </HoverLink>
