@@ -65,19 +65,19 @@ export default function Header({ back }) {
       <Link style={{ display: 'flex', alignItems: 'center' }} to="/">
         <img width={32} src={logo} alt="logo" />
         <span className="title" style={{ marginLeft: '.5rem' }}>
-          Token Lists
+          Crypto Lists
         </span>
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.tokenlists.org/">
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.cryptolists.com/">
           Community
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="hide-small"
-          href="https://uniswap.org/blog/token-lists/"
+          href="https://docs.walkrfinancial.com/crypto-lists/"
         >
           Why lists?
         </a>
@@ -85,7 +85,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/WLKR-Financial/token-lists#authoring-token-lists"
+          href="https://github.com/WLKR-Financial/cryptolists-lists#authoring-token-lists"
         >
           Make a list
         </a>
